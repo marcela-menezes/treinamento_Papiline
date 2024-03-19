@@ -1,0 +1,7 @@
+name: Execultando teste da papiline
+on: [push]
+
+jobs: 
+  Web-Teste:
+    runs-on: umbutu-20.04
+    name: instando o sistema operacional
