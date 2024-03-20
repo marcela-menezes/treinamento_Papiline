@@ -3,7 +3,7 @@ on: [push]
 
 jobs: 
   Web-Teste:
-    runs-on: umbutu-20.04
+    runs-on: ubuntu-20.04
     name: instando o sistema operacional
 
     steps:
