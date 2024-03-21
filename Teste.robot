@@ -6,4 +6,4 @@ Library    SeleniumLibrary
 *** Test Cases ***
 Abrir site
     Open Browser        https://www.demoblaze.com/        headlesschrome  
-    Title Should Be     Marcela
+    Title Should Be     STORE
