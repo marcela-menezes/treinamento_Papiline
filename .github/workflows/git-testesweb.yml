@@ -26,6 +26,6 @@ jobs:
 
       - name: Exportando relatório
         uses: actions/upload-artifact@v3
-
-      - name: Resultados dos testes
-        path: ./logs                   
+        with: 
+          name: Resultados dos testes
+          path: ./logs                   
