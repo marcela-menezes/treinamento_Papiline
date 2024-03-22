@@ -22,7 +22,7 @@ jobs:
 
       - name: Executar os testes
         run: |
-          robot -d ./logs Teste.robot
+          robot Teste.robot
 
       - name: Exportando relatório
         uses: actions/upload-artifact@v3
