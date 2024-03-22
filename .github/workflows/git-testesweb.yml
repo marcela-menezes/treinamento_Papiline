@@ -25,7 +25,7 @@ jobs:
           robot -d ./logs Teste.robot
 
       - name: Exportando relatório
-        if: always()
+        #if: always()
         uses: actions/upload-artifact@v3
         with: 
           name: Resultados dos testes
